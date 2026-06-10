@@ -15,8 +15,6 @@ for item in data.get("abilities", []):
     abilities = {
         "ability_name": ability_info.get("name"),
         "pokemon_name": data.get("name"),
-        "height": data.get("height"),
-        "weight": data.get("weight")
     }
     filtered_list.append(abilities) 
 
